@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Cell文献分享：BVG与神经内分泌癌免疫治疗耐药 | 社团学术报告完整讲稿（含定位词与过渡）</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f2f5f9;
+            font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, 'Roboto', sans-serif;
+            line-height: 1.55;
+            color: #1a2c3e;
+            padding: 2rem 1.5rem;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            padding: 2rem 2rem 3rem 2rem;
+        }
+
+        .title-section {
+            border-bottom: 2px solid #e9edf2;
+            padding-bottom: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .main-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 0.4rem;
+        }
+
+        .sub {
+            color: #5b6e8c;
+            font-size: 0.9rem;
+            margin-top: 0.3rem;
+        }
+
+        .speech-section {
+            margin-bottom: 2.5rem;
+            border-left: 5px solid #2d6a8b;
+            background: #fefefe;
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+
+        .speech-content {
+            padding: 1.5rem 1.8rem;
+        }
+
+        .speech-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1f4e79;
+            margin-bottom: 1rem;
+            border-left: 4px solid #2d6a8b;
+            padding-left: 12px;
+        }
+
+        .speech-text {
+            font-size: 1rem;
+            font-weight: 450;
+            color: #1f2e45;
+            margin-bottom: 1.2rem;
+            line-height: 1.65;
+        }
+
+        .slide-ref {
+            display: inline-block;
+            background: #eef2fa;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #1f4e79;
+            margin-right: 10px;
+        }
+
+        .figure-explanation {
+            background: #f8fafd;
+            border-radius: 20px;
+            padding: 1rem 1.5rem;
+            margin: 1rem 0 1.2rem 0;
+            border: 1px solid #e2edf7;
+        }
+
+        .fig-title {
+            font-weight: 700;
+            color: #2c5f8a;
+            margin-bottom: 0.6rem;
+            font-size: 1rem;
+        }
+
+        .fig-detail {
+            font-size: 0.88rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+
+        .translation {
+            background: #eef2fa;
+            padding: 4px 10px;
+            border-radius: 16px;
+            display: inline-block;
+            font-size: 0.75rem;
+            margin: 0.2rem 0.2rem 0 0;
+        }
+
+        .table-custom {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .table-custom th {
+            background-color: #e6f0f9;
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 600;
+            color: #1f4e79;
+        }
+
+        .table-custom td {
+            border-bottom: 1px solid #dce5ec;
+            padding: 8px 12px;
+            background-color: white;
+        }
+
+        .mechanism-diagram {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 1rem;
+            margin: 1.2rem 0;
+            border: 1px solid #d4e2f0;
+            text-align: center;
+            font-family: monospace;
+        }
+
+        hr {
+            margin: 1.8rem 0;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, #e0e7ef, transparent);
+        }
+
+        footer {
+            font-size: 0.75rem;
+            text-align: center;
+            color: #7d8eaa;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eef2f8;
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                padding: 1.2rem;
+            }
+            .speech-text {
+                font-size: 0.92rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="title-section">
+        <div class="main-title">血脑屏障样血管门控（BVG）<br>限制神经内分泌癌免疫治疗疗效</div>
+        <div class="sub">Cell, 2026 | Wang Yiyun et al. | 四川大学华西医院</div>
+        <div class="sub" style="margin-top: 8px;">🎤 学术社团分享 · 完整讲稿（含PPT定位词与过渡）</div>
+    </div>
+
+    <!-- ===================== 引言部分 ===================== -->
+    <div class="speech-section">
+        <div class="speech-content">
+            <div class="speech-title">📖 引言：临床矛盾与科学问题</div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第3页】</span><strong>第一段 · 临床困境</strong><br>
+                免疫检查点抑制剂已在多种实体瘤中取得突破，但在小细胞肺癌（SCLC）中获益极为有限。临床III期研究IMpower133和CASPIAN显示，在化疗基础上联合atezolizumab或durvalumab，仅能将广泛期SCLC患者的总生存期延长约2个月。同时，回顾性分析提示，<strong>ASCL1⁺ 或 NEUROD1⁺ 的经典SCLC亚型对免疫治疗反应更差</strong>。这就引出一个核心矛盾：SCLC具有较高的肿瘤突变负荷（TMB），本应具有较强的免疫原性，但实际上却呈现典型的<strong>“免疫荒漠”</strong>表型——T细胞浸润极少。这种矛盾提示存在某种未被认识的免疫排斥机制。
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第4页】</span><strong>第二段 · 从血脑屏障获得灵感</strong><br>
+                以往研究多关注肿瘤细胞自身的抗原呈递缺陷。但近年来，肿瘤血管系统的异常也被认为可能调节免疫细胞进入。脑部肿瘤（如胶质母细胞瘤GBM）因存在<strong>血-肿瘤屏障（BTB）</strong>，免疫细胞难以进入，对免疫治疗同样耐药。作者由此推测：<strong>SCLC的血管是否也具有类似血脑屏障（BBB）的特殊结构，从而限制了T细胞浸润？</strong>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第5页】</span><strong>第三段 · 数据分析锁定血管内皮</strong><br>
+                作者利用公共数据库进行<strong>泛癌种免疫治疗队列的转录组分析</strong>，发现血管内皮屏障相关基因集与T细胞浸润呈显著负相关。SCLC单细胞测序数据显示：SCLC中的内皮细胞富集了大量基底膜和紧密连接相关基因，而在NSCLC内皮细胞中几乎不表达。这提示SCLC血管在分子水平上具有独特的“屏障”特征。
+            </div>
+            <div class="figure-explanation">
+                <div class="fig-title">📊 自制对比表：不同癌种免疫治疗响应与T细胞浸润</div>
+                <table class="table-custom">
+                    <thead><tr><th>癌种</th><th>免疫治疗临床获益</th><th>T细胞浸润程度</th><th>备注</th></tr></thead>
+                    <tbody>
+                        <tr><td>黑色素瘤</td><td>高（ORR ~40-50%）</td><td>高（炎症型）</td><td>阳性对照</td></tr>
+                        <tr><td>非小细胞肺癌(NSCLC)</td><td>中～高</td><td>中～高</td><td>部分亚型有效</td></tr>
+                        <tr><td><strong>小细胞肺癌(SCLC)</strong></td><td><strong>极低（OS延长≈2个月）</strong></td><td><strong>极低（免疫荒漠）</strong></td><td><strong>本研究焦点：BVG限制T细胞</strong></td></tr>
+                        <tr><td>胶质母细胞瘤(GBM)</td><td>极低</td><td>最低</td><td>血-肿瘤屏障经典模型</td></tr>
+                    </tbody>
+                </table>
+                <div class="fig-detail">🔍 数据来源：Figure 1A (OS/ORR散点图), Figure 1B (T细胞浸润箱线图) — 显示SCLC仅次于GBM，免疫获益最差。</div>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【过渡】</span>以上是引言部分。接下来进入结果部分，共分四个层次。我们先看第一个结果：BVG是否真的存在于人/小鼠SCLC中。
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== Results 第一部分 ===================== -->
+    <div class="speech-section">
+        <div class="speech-content">
+            <div class="speech-title">🔬 结果一：BVG存在于人/小鼠SCLC，导致免疫排斥</div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第7页】</span><strong>人类SCLC组织学证据</strong><br>
+                这一页对应原文 <strong>Figure 1G, 1H, 1I</strong>。<br>
+                <strong>Figure 1G (H&E染色)</strong>：左为NSCLC，内皮细胞排列紊乱、基底膜薄；右为SCLC，内皮排列整齐，基底膜显著增厚（粉染袖套）。<br>
+                <strong>Figure 1H (透射电镜 TEM)</strong>：SCLC血管内皮细胞之间出现典型的紧密连接（TJ），基底膜增厚如棉被，周细胞（P）紧密包绕；NSCLC仅见黏附连接（AJ）。<br>
+                <strong>Figure 1I (免疫荧光 IF)</strong>：绿色CD31(内皮)，红色αSMA(周细胞)，白色胶原IV(基底膜)，蓝色ZO-1(紧密连接)。SCLC中四者均强阳性，NSCLC仅见CD31。<br>
+                <strong>本页小结</strong>：以上三组图从组织、超微结构、分子三个层面一致表明：<strong>人类SCLC血管具有血脑屏障样的完整结构（增厚基底膜+紧密连接+周细胞覆盖）</strong>，作者将其命名为 <strong>BVG</strong>。
+            </div>
+            <div class="figure-explanation">
+                <div class="fig-title">📌 图表详解：Figure 1G, 1H, 1I</div>
+                <div class="fig-detail"><span class="translation">H&E</span> 苏木精-伊红染色 <span class="translation">TEM</span> 透射电子显微镜 <span class="translation">ZO-1</span> 紧密连接蛋白-1 <span class="translation">αSMA</span> α-平滑肌肌动蛋白 <span class="translation">Collagen IV</span> IV型胶原</div>
+                <div class="fig-detail"><strong>坐标轴/图注：</strong> Figure 1G 比例尺20μm，放大区10μm；Figure 1H 比例尺1μm，放大区250nm；Figure 1I 比例尺50μm。</div>
+                <div class="fig-detail"><strong>自制对比表：SCLC vs NSCLC 血管结构</strong></div>
+                <table class="table-custom">
+                    <thead><tr><th>特征</th><th>NSCLC</th><th>SCLC</th></tr></thead>
+                    <tbody>
+                        <tr><td>内皮排列</td><td>紊乱</td><td>整齐有序</td></tr>
+                        <tr><td>基底膜厚度</td><td>薄 (~0.2-0.5μm)</td><td>显著增厚 (~1-2μm)</td></tr>
+                        <tr><td>紧密连接</td><td>罕见</td><td>频繁出现</td></tr>
+                        <tr><td>周细胞覆盖</td><td>稀少</td><td>密集连续</td></tr>
+                        <tr><td>ZO-1表达</td><td>阴性</td><td>强阳性</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第8-9页】</span><strong>小鼠SCLC模型验证</strong><br>
+                作者利用GEMM小鼠（Trp53/Rb1缺失+Myc过表达），肿瘤呈ASCL1⁺ SCLC。H&E和IF显示与人类一致的BVG结构：基底膜增厚、ZO-1阳性、αSMA⁺周细胞密集。T细胞染色（CD8/CD4）显示几乎无浸润，而NSCLC小鼠模型则有明显T细胞。证实小鼠模型完美复现人类免疫荒漠表型。
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第10页】</span><strong>临床相关性：BVG评分预测免疫治疗耐药</strong><br>
+                <strong>Figure 3F (IMpower133队列)</strong>：左图（化疗+免疫治疗组），BVG高评分患者无进展生存期（PFS）显著短于低评分组；右图（单纯化疗组），BVG评分高低对PFS无影响。说明BVG特异性地阻碍免疫治疗疗效，而非化疗耐药。
+            </div>
+            <div class="figure-explanation">
+                <div class="fig-title">📈 图表详解：Figure 3F</div>
+                <div class="fig-detail"><span class="translation">横轴</span> 无进展生存时间（月） <span class="translation">纵轴</span> 生存概率 <span class="translation">BVG high/low</span> 基于BVG特征评分分组 <span class="translation">p值</span> 对数秩检验，**p<0.01。</div>
+                <div class="fig-detail">结论：BVG是SCLC免疫治疗耐药的独立生物标志物。</div>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【过渡】</span>第一个结果确认了BVG的存在及其与免疫排斥的关系。那么，BVG是如何形成的？谁在指挥建造这扇“门”？我们看第二个结果。
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== Results 第二部分 ===================== -->
+    <div class="speech-section">
+        <div class="speech-content">
+            <div class="speech-title">🧬 结果二：BVG形成依赖ASCL1-IGFBP5-IGF1R信号轴</div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第12页】</span><strong>ASCL1与BVG正相关</strong><br>
+                <strong>Figure 3G</strong>：相关性分析显示，ASCL1表达量与BVG评分显著正相关（Spearman相关系数>0.6，p<0.001），NEUROD1也呈正相关，但YAP1、POU2F3不相关。提示ASCL1是BVG的关键上游调控者。
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第13页】</span><strong>ASCL1缺失破坏BVG</strong><br>
+                <strong>Figure 3J,3K</strong>：在小鼠SCLC中敲除Ascl1（sgAscl1），与对照sgScr相比，基底膜厚度显著变薄，ZO-1、αSMA、胶原蛋白IV表达均下降——BVG结构瓦解。
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第14页】</span><strong>ASCL1直接靶向IGFBP5</strong><br>
+                <strong>Figure 4A–4C</strong>：整合ChIP-seq（ASCL1结合位点）、RNA-seq（敲除Ascl1后下调基因）和SCLC-BVG相关基因，韦恩图交集显示<strong>IGFBP5</strong>为top候选。IGFBP5在ASCL1⁺ SCLC中高表达，敲除ASCL1后表达下降。
+            </div>
+            <div class="figure-explanation">
+                <div class="fig-title">🧪 图表详解：Figure 4A–4C (整合组学)</div>
+                <div class="fig-detail"><span class="translation">ChIP-seq</span> 染色质免疫沉淀测序 <span class="translation">RNA-seq (Ascl1 KO vs WT)</span> 敲除Ascl1后表达下调的基因 <span class="translation">SCLC-BVG signature genes</span> 与BVG特征正相关的基因集</div>
+                <div class="fig-detail"><strong>机制示意图（自制）</strong></div>
+                <div class="mechanism-diagram">
+                    SCLC肿瘤细胞 → [ASCL1] → 转录激活 <strong>IGFBP5</strong> (分泌) → 结合内皮细胞 <strong>IGF1R</strong> → 下游信号 → 基底膜增厚、紧密连接增加、周细胞招募 → <strong>BVG形成</strong> → 限制CD8⁺ T细胞进入
+                </div>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第15页】</span><strong>充分性验证：过表达IGFBP5或ASCL1诱导BVG</strong><br>
+                <strong>Figure 5D–5G</strong>：在原本无BVG的NSCLC细胞系或低表达ASCL1的SCLC细胞H526中，过表达IGFBP5或ASCL1，均能诱导出基底膜增厚、αSMA⁺周细胞增多、ZO-1表达。证明ASCL1→IGFBP5通路足以构建BVG。
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第16页】</span><strong>必要性验证：敲除Igfbp5或Igf1r破坏BVG</strong><br>
+                敲除肿瘤细胞Igfbp5或内皮细胞特异性敲除Igf1r，均导致BVG结构瓦解，基底膜变薄，紧密连接消失，同时CD8⁺ T细胞浸润轻微增加（为联合治疗铺垫）。
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【过渡】</span>第二个结果阐明了BVG形成的分子机制：ASCL1→IGFBP5→内皮IGF1R。那么，如果我们主动破坏这条通路，能否打开免疫治疗的大门？请看第三个结果。
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== Results 第三部分 ===================== -->
+    <div class="speech-section">
+        <div class="speech-content">
+            <div class="speech-title">💊 结果三：靶向ASCL1-IGFBP5-IGF1R轴增强免疫治疗</div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第18页】</span><strong>基因敲除Igfbp5联合抗PD-1</strong><br>
+                <strong>Figure 6B</strong>：肿瘤生长曲线。<br>
+                - 横轴：移植后天数；纵轴：肿瘤体积(mm³)。<br>
+                - 黑色线(sgScr+对照)：肿瘤快速生长。<br>
+                - 灰色线(sgScr+抗PD-1)：与黑色几乎重叠，说明完整BVG下抗PD-1无效。<br>
+                - 蓝色线(sgIgfbp5+对照)：部分抑制，但肿瘤仍进展。<br>
+                - 红色线(sgIgfbp5+抗PD-1)：肿瘤几乎完全不生长，****p<0.0001。表明破坏BVG后抗PD-1才起效。
+            </div>
+            <div class="figure-explanation">
+                <div class="fig-title">📊 图表详解：Figure 6B</div>
+                <div class="fig-detail"><span class="translation">sgScr</span> 非靶向对照CRISPR序列 <span class="translation">sgIgfbp5</span> 靶向Igfbp5基因敲除 <span class="translation">anti-PD1</span> 抗PD-1抗体(100μg/20g，每3天) <span class="translation">****p<0.0001</span> 联合组与其他三组比较</div>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第19页】</span><strong>药物抑制IGF1R (OSI-906)联合抗PD-1</strong><br>
+                <strong>Figure 6F</strong>：<br>
+                - 黑色(安慰剂)：肿瘤快速生长。<br>
+                - 灰色(抗PD-1单用)：无效。<br>
+                - 蓝色(OSI-906单用)：部分抑制，但肿瘤最终反弹。<br>
+                - 红色(OSI-906+抗PD-1)：显著抑制肿瘤生长（**p<0.01，****p<0.0001）。<br>
+                旧药新用：OSI-906曾作为SCLC单药临床试验失败，但联合免疫治疗显示出强大协同效应。
+            </div>
+            <div class="figure-explanation">
+                <div class="fig-title">💡 图表详解：Figure 6F</div>
+                <div class="fig-detail"><span class="translation">Vehicle</span> 安慰剂（溶剂） <span class="translation">OSI-906</span> 25mg/kg 每日口服 <span class="translation">Combination</span> OSI-906 + 抗PD-1 <span class="translation">**p<0.01，****p<0.0001</span></div>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第20页】</span><strong>机制：联合治疗显著增加CD8⁺ T细胞浸润</strong><br>
+                <strong>Figure 6H</strong>：每个高倍视野CD8⁺ T细胞数量定量。<br>
+                - 纵轴：CD8⁺ T cells per field。<br>
+                - 安慰剂组和单用抗PD-1组几乎为零。<br>
+                - OSI-906单用组轻度增加（ns）。<br>
+                - 联合治疗组显著增加至数十倍（**p<0.01）。<br>
+                免疫荧光图像（Figure 6G）显示联合组肿瘤内部出现大片红色CD8⁺ T细胞，证实BVG破坏后T细胞能穿过血管进入肿瘤实质。
+            </div>
+            <div class="figure-explanation">
+                <div class="fig-title">🔬 图表详解：Figure 6H</div>
+                <div class="fig-detail"><span class="translation">CD8⁺ T cells per field</span> 每200倍视野下CD8阳性细胞数 <span class="translation">ns</span> 无统计学差异 <span class="translation">**p<0.01</span> 联合组 vs 单药组</div>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【过渡】</span>第三个结果证明了靶向该轴可以逆转免疫排斥。那么，BVG现象是否只存在于SCLC？我们看最后一个结果。
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== Results 第四部分 ===================== -->
+    <div class="speech-section">
+        <div class="speech-content">
+            <div class="speech-title">🌐 结果四：BVG在多种神经内分泌肿瘤（pan-NEC）中保守存在</div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第22页】</span><strong>H&E证据：多器官NEC均见基底膜增厚</strong><br>
+                <strong>Figure 7A & 7B</strong>：采集食管、膀胱、胃、胰腺、直肠、前列腺的神经内分泌癌（NEC）及对应非NEC（鳞癌/腺癌）。H&E显示所有NEC血管基底膜显著增厚，而非NEC基底膜薄。<br>
+                柱状图（Figure 7B）量化基底膜厚度（μm），每种器官NEC均显著高于非NEC（****p<0.0001）。<br>
+                <strong>图中缩写翻译：</strong> ESCC=食管鳞癌，Eso-NEC=食管NEC；BL-UC=膀胱尿路上皮癌，BL-NEC=膀胱NEC；Gas-ADC=胃腺癌，Gas-NEC=胃NEC；CRPC-NE=去势抵抗性神经内分泌前列腺癌；P-NEC=胰腺NEC；RE-NEC=直肠NEC。
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【PPT 第23页】</span><strong>免疫荧光证实分子标志保守</strong><br>
+                <strong>Figure 7C</strong>：绿色CD31(内皮)，红色αSMA(周细胞)，蓝色胶原IV(基底膜)，紫色ZO-1(紧密连接)。非NEC仅有CD31；NEC中αSMA密集包绕、胶原IV增厚、ZO-1阳性。证明BVG的分子特征在pan-NEC中高度保守。
+            </div>
+            <div class="figure-explanation">
+                <div class="fig-title">📌 图表详解：Figure 7A,7B,7C</div>
+                <div class="fig-detail"><span class="translation">BM thickness (μm)</span> 基底膜厚度（微米） <span class="translation">****p<0.0001</span> Mann-Whitney检验 <span class="translation">Merge</span> 多通道叠加图</div>
+                <div class="fig-detail">结论：BVG不限于肺，是所有神经内分泌癌的保守免疫屏障。因此靶向ASCL1-IGFBP5-IGF1R轴的策略有望推广至多种NEC。</div>
+            </div>
+            <div class="speech-text">
+                <span class="slide-ref">【总结】</span>至此，四个结果汇报完毕。本研究首次揭示神经内分泌癌中血脑屏障样血管门控（BVG）的存在，阐明ASCL1-IGFBP5-IGF1R轴驱动BVG形成、限制T细胞浸润的机制，并提出“破坏BVG + 免疫治疗”的联合策略。不仅解释了SCLC的免疫耐药之谜，更为多种难治性神经内分泌肿瘤提供了潜在治疗方案。
+            </div>
+        </div>
+    </div>
+
+    <!-- 全局术语注释 -->
+    <hr>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; font-size: 0.75rem; background: #f8fafd; padding: 1rem; border-radius: 32px; margin-top: 1rem;">
+        <span>📖 <strong>关键术语注释</strong> | </span>
+        <span>SCLC: 小细胞肺癌</span> <span>NSCLC: 非小细胞肺癌</span> <span>BVG: 血脑屏障样血管门控</span>
+        <span>BBB: 血脑屏障</span> <span>ASCL1: 转录因子(achaete-scute家族)</span> <span>IGFBP5: 胰岛素样生长因子结合蛋白5</span>
+        <span>IGF1R: 胰岛素样生长因子1受体</span> <span>OSI-906: linsitinib (IGF1R抑制剂)</span> <span>抗PD-1: 免疫检查点抑制剂</span>
+    </div>
+
+    <footer>
+        基于Cell原文 (Wang et al., 2026) 及PPT汇报内容整理 · 学术社团分享 · 图表详解含坐标轴/图注翻译 · 讲稿含PPT定位词与过渡衔接
+    </footer>
+</div>
+</body>
+</html>
